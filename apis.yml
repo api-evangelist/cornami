@@ -1,8 +1,13 @@
 aid: cornami
 name: Cornami
-description: 'Cornami is a company surfaced as a portfolio company of softbank-vision-fund and added to
-  the API Evangelist network as a stub for enrichment. Sector: frontier-tech. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Cornami is a Santa Clara, California high-performance computing company
+  building morphable silicon and a stream-centric software stack for privacy-preserving
+  and AI workloads. Its FracTLcore Fabric and TruStream dataflow programming model
+  power the Tigris 16nm ASIC, MX8 board, and rack-scale MX64 system, delivering real-time
+  Fully Homomorphic Encryption (FHE), private LLM inference, blockchain, and signal-processing
+  acceleration at greatly reduced power and latency. Cornami is a frontier-tech company
+  backed by SoftBank Vision Fund; this profile tracks its public developer and API
+  surface within the API Evangelist network.'
 url: https://raw.githubusercontent.com/api-evangelist/cornami/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,15 +15,43 @@ x-backed-by:
 - softbank-vision-fund
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cornami.com/wp-content/uploads/2023/03/cornami-logo.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Frontier Tech
+- Semiconductors
+- High Performance Computing
+- Fully Homomorphic Encryption
+- Confidential Computing
+- AI Accelerator
+- Privacy Preserving Machine Learning
 apis: []
+common:
+- type: DomainSecurity
+  url: security/cornami-domain-security.yml
+- type: Website
+  url: https://cornami.com
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
